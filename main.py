@@ -282,9 +282,6 @@ def prep(input, output, mdddef, descriptives, minage):
     except ImportError:
         print("Error: Cannot write file to the specified location. Output argument should be a string")
 
-
-# prep(input='../../data/AS_12_data_ETL_EN.sav', output='../../data/pythontestput4.csv', descriptives=True)
-
 if __name__ == '__main__':
     print('+----------------------------------------------+\n|         NTR LIDAS / List 12 MDD status       |')
     print('+----------------------------------------------+\n|                by Floris Huider              |')
